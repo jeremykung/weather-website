@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: rgb(21, 57, 156);
+    text-decoration: none;
+    padding: 1rem 2rem;
+}
+
+#weather-display1, #weather-display2 {
+    /* padding: 1rem 0; */
+    color: blue;
+}
