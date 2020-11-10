@@ -9,13 +9,20 @@
 <body>
     {{>header}}
 
-    <form>
-        <input placeholder="location">
-        <button>Search</button>
-    </form>
+    <div class="weather-data">
 
-    <div id="weather-display1"></div>
-    <div id="weather-display2"></div>
+        <form>
+            <input placeholder="location">
+            <button>Search</button>
+        </form>
+
+        <div class="weather-text">
+            <p id="weather-display1"></p>
+            <p id="weather-display2"></p>
+        </div>
+        
+    </div>
+
 
     {{>footer}}
     <script src="/js/script.js"></script>

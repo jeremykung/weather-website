@@ -46,14 +46,14 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About Page',
-        name: 'Jeremy'
+        title: 'About This Project',
+        name: 'Jeremy Kung'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        title: 'Help',
+        title: 'How To Use',
         helpMsg: 'Help me!! just kidding',
         name: 'Jeremy Kung' 
     })
@@ -91,14 +91,15 @@ app.get('/weather', (req, res) => {
 
 app.get('/help/*', (req, res) => {
     res.render('404', {
-        name: 'Jeremy',
+        name: 'Jeremy Kung',
         message: 'Help page not found!'
     })
 })
 
 app.get('*', (req, res) => {
     res.render('404', {
-        name: 'Jeremy',
+        title: '404',
+        name: 'Jeremy Kung',
         message: 'Page not found!'
     })
 })

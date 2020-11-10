@@ -9,7 +9,13 @@
 </head>
 <body>
     {{>header}}
-    <p>Help Message: {{helpMsg}}</p>
+    <div class="help-text">
+        <p>This site allows you to search for the weather by location.</p>
+        <p>Simply type in a location in the input, then press search.</p>
+        <p>It will search a weather API with a query and retrieve JSON data.</p>
+        <p>The JSON data is than parsed and rendered for viewing in the browser.</p>
+    </div>
+    {{!-- <p>Help Message: {{helpMsg}}</p> --}}
     {{>footer}}
 </body>
 </html>
