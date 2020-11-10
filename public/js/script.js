@@ -1,6 +1,4 @@
-console.log(`JS file loaded`);
-
-fetch('http://localhost:3000/weather?address=zhubei').then((res) => {
+fetch('/weather?address=zhubei').then((res) => {
     res.json().then((data) => {
         console.log(data.weather)
     })
