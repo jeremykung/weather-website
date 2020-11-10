@@ -30,7 +30,7 @@ footer {
 .weather-data {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    align-items: center;
     background-color: rgb(43, 50, 88);
     padding: 2rem;
 }
